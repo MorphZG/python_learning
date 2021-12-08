@@ -1,0 +1,658 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"show",
+				"show_question"
+			],
+			[
+				"cit",
+				"city_country"
+			],
+			[
+				"formated",
+				"formatted_name"
+			],
+			[
+				"get",
+				"get_stored_username"
+			],
+			[
+				"Fil",
+				"FileNotFoundError"
+			],
+			[
+				"file",
+				"file_object"
+			],
+			[
+				"bat",
+				"battery_size"
+			],
+			[
+				"set",
+				"set_flavors"
+			],
+			[
+				"rest",
+				"restaurant_name"
+			],
+			[
+				"batter",
+				"battery_size"
+			],
+			[
+				"describe",
+				"describe_battery"
+			],
+			[
+				"inc",
+				"increment_login_attempts"
+			],
+			[
+				"in",
+				"increment_number_served"
+			],
+			[
+				"des",
+				"describe_user"
+			],
+			[
+				"restau",
+				"restaurant03"
+			],
+			[
+				"restar",
+				"restaurant01"
+			],
+			[
+				"open",
+				"open_restaurant"
+			],
+			[
+				"res",
+				"restaurant_name"
+			],
+			[
+				"stro",
+				"strong_password"
+			],
+			[
+				"med",
+				"medium_password"
+			],
+			[
+				"weak",
+				"weak_password"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"p",
+				"password"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"user",
+				"user_action"
+			],
+			[
+				"reverse_",
+				"reverse_v2"
+			],
+			[
+				"user_",
+				"user_input"
+			],
+			[
+				"pro",
+				"prompt01"
+			],
+			[
+				"ai_",
+				"ai_score"
+			],
+			[
+				"pr",
+				"prompt02"
+			],
+			[
+				"re",
+				"reverse_num"
+			],
+			[
+				"c",
+				"character"
+			],
+			[
+				"make",
+				"make_album"
+			],
+			[
+				"ca",
+				"car_dict"
+			],
+			[
+				"k",
+				"kwargs"
+			],
+			[
+				"exer",
+				"exercise8-10"
+			],
+			[
+				"sen",
+				"sent_messages"
+			],
+			[
+				"list",
+				"list_messages"
+			],
+			[
+				"lis",
+				"lista2"
+			],
+			[
+				"com",
+				"completed_designs"
+			],
+			[
+				"exercise",
+				"exercise8-9"
+			],
+			[
+				"completed",
+				"completed_designs"
+			],
+			[
+				"n",
+				"nsong_prompt"
+			],
+			[
+				"nso",
+				"nsong"
+			],
+			[
+				"for",
+				"formatted_name"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"project",
+				"Project: Close"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"UI: Customize Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"read me",
+				"gruvbox: Readme"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Preferences: Package Control Settings"
+			],
+			[
+				"terminus",
+				"Preferences: Terminus Key Bindings"
+			],
+			[
+				"terminus selec",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"termi",
+				"Terminus: List Shells"
+			],
+			[
+				"ter",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"terminal",
+				"Terminal: Open"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"gruv",
+				"gruvbox: Select Theme"
+			],
+			[
+				"anaconda",
+				"Build With: Anaconda Python Builder"
+			],
+			[
+				"activate",
+				"ayu: Activate theme"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 252.0,
+		"history":
+		[
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/zoran/python_projects/pcc_data_visualization"
+	],
+	"file_history":
+	[
+		"/home/zoran/python_projects/100_days_of_code/day_15/coffee_machine_program.py",
+		"/home/zoran/python_projects/python crash course/exercise11-01.py",
+		"/home/zoran/python_projects/python crash course/exercise11-03.py",
+		"/home/zoran/python_projects/automate the boring stuff/Character Picture Grid.py",
+		"/home/zoran/python_projects/python crash course/city_functions.py",
+		"/home/zoran/python_projects/python crash course/book_resources/chapter_11/survey.py",
+		"/home/zoran/python_projects/python crash course/00-index.txt",
+		"/home/zoran/python_projects/python crash course/exercise11-02.py",
+		"/home/zoran/python_projects/test folder/test_name_function.py",
+		"/home/zoran/python_projects/test folder/name_function.py",
+		"/home/zoran/python_projects/test folder/names.py",
+		"/home/zoran/python_projects/python crash course/book_resources/chapter_11/test_name_function.py",
+		"/home/zoran/python_projects/python crash course/exercise08-13.py",
+		"/home/zoran/python_projects/python crash course/exercise09-06.py",
+		"/home/zoran/python_projects/python crash course/exercise08-12.py",
+		"/home/zoran/python_projects/test folder/test01.py",
+		"/home/zoran/python_projects/test folder/exercise11-01.py",
+		"/home/zoran/python_projects/test folder/test02-bckp.txt",
+		"/home/zoran/python_projects/python crash course/exercise10-13.py",
+		"/home/zoran/python_projects/python crash course/exercise10-12.py",
+		"/home/zoran/python_projects/python crash course/exercise10-11.py",
+		"/home/zoran/python_projects/python crash course/remember_me.py",
+		"/home/zoran/python_projects/python crash course/number_writer_reader.py",
+		"/home/zoran/python_projects/python crash course/test.py",
+		"/home/zoran/python_projects/python crash course/dump_files/numbers.json",
+		"/home/zoran/python_projects/python crash course/exercise10-10.py",
+		"/home/zoran/python_projects/python crash course/exercise10-9.py",
+		"/home/zoran/python_projects/python crash course/exercise8-8.py",
+		"/home/zoran/python_projects/python crash course/exercise10-4.py",
+		"/home/zoran/python_projects/python crash course/exercise7-10.py",
+		"/home/zoran/python_projects/python crash course/exercise10-8.py",
+		"/home/zoran/python_projects/python crash course/exercise10-6.py",
+		"/home/zoran/python_projects/python crash course/exercise10-7.py",
+		"/home/zoran/python_projects/python crash course/exercise10-1.py",
+		"/home/zoran/python_projects/python crash course/exercise10-5.py",
+		"/home/zoran/python_projects/python crash course/dump_files/cats.txt",
+		"/home/zoran/python_projects/python crash course/dump_files/dogs.txt",
+		"/home/zoran/.local/bin/poetry",
+		"/home/zoran/python_projects/python crash course/exercise10-2.py",
+		"/home/zoran/python_projects/python crash course/exercise9-9.py",
+		"/home/zoran/python_projects/python crash course/dump_files/programming_poll.txt",
+		"/home/zoran/python_projects/python crash course/dump_files/guest_book.txt",
+		"/home/zoran/python_projects/python crash course/exercise10-3.py",
+		"/home/zoran/python_projects/python crash course/dump_files/guest.txt",
+		"/home/zoran/python_projects/python crash course/test.txt",
+		"/home/zoran/python_projects/python crash course/dump_files/exercise10-3.txt",
+		"/home/zoran/python_projects/python crash course/atest.txt",
+		"/home/zoran/python_projects/python crash course/exercise4-3.py",
+		"/home/zoran/python_projects/python crash course/exercise4-13.py",
+		"/home/zoran/python_projects/python crash course/learning_python.txt",
+		"/home/zoran/python_projects/python crash course/exercise8-1.py",
+		"/home/zoran/python_projects/python crash course/exercise8-2.py",
+		"/home/zoran/python_projects/python crash course/exercise8-3.py",
+		"/home/zoran/python_projects/python crash course/exercise8-5.py",
+		"/home/zoran/python_projects/python crash course/exercise8-4.py",
+		"/home/zoran/python_projects/python crash course/exercise8-9.py",
+		"/home/zoran/python_projects/python crash course/exercise8-10.py",
+		"/home/zoran/python_projects/python crash course/exercise8-11.py",
+		"/home/zoran/python_projects/python crash course/exercise8-14.py",
+		"/home/zoran/python_projects/python crash course/exercise8-12.py",
+		"/home/zoran/python_projects/python crash course/exercise8-13.py",
+		"/home/zoran/python_projects/python crash course/exercise9-5.py",
+		"/home/zoran/python_projects/python crash course/exercise9-4.py",
+		"/home/zoran/python_projects/python crash course/exercise9-6.py",
+		"/home/zoran/python_projects/python crash course/exercise9-15.py",
+		"/home/zoran/python_projects/python crash course/exercise9-7.py",
+		"/home/zoran/python_projects/python crash course/exercise9-8.py",
+		"/home/zoran/python_projects/python crash course/exercise9-13.py",
+		"/home/zoran/python_projects/python crash course/exercise9-14.py",
+		"/home/zoran/python_projects/update-alternatives.txt",
+		"/home/zoran/python_projects/patterns.py",
+		"/home/zoran/python_projects/interesting code/remove_duplicates.py",
+		"/home/zoran/python_projects/python crash course/exercise6-7.py",
+		"/home/zoran/python_projects/interesting code/exercise6-7.py",
+		"/home/zoran/python_projects/interesting code/exercise6-11.py",
+		"/home/zoran/python_projects/python crash course/exercise6-11.py",
+		"/home/zoran/python_projects/automate the boring stuff/count characters.py",
+		"/home/zoran/python_projects/interesting code/count characters.py",
+		"/home/zoran/python_projects/python crash course/book_resources",
+		"/home/zoran/python_projects/python crash course/exercise9-16.py",
+		"/home/zoran/python_projects/exercise/password_generator.py",
+		"/home/zoran/python_projects/interesting code/simple-password-generator.py",
+		"/home/zoran/python_projects/exercise/guessing_game_one.py",
+		"/home/zoran/python_projects/python crash course/exercise5-6.py",
+		"/home/zoran/python_projects/python crash course/exercise9-11.py",
+		"/home/zoran/python_projects/python crash course/exercise9-12.py",
+		"/home/zoran/python_projects/python crash course/exercise9-10.py",
+		"/home/zoran/python_projects/python crash course/car.py",
+		"/home/zoran/python_projects/python crash course/electric-car-my-instance.py",
+		"/home/zoran/python_projects/modules/import_whole_module.py",
+		"/home/zoran/python_projects/python crash course/main.py",
+		"/home/zoran/python_projects/realpython_com/rock paper scissors/main.py",
+		"/home/zoran/python_projects/exercise/rock_paper_scissors2.py",
+		"/home/zoran/python_projects/python crash course/electric_car.py",
+		"/home/zoran/python_projects/python crash course/exercise9-3.py",
+		"/home/zoran/Documents/markdown-cheatsheet2",
+		"/home/zoran/python_projects/python crash course/exercise9-2.py",
+		"/home/zoran/python_projects/python crash course/exercise9-1.py",
+		"/home/zoran/python_projects/freecodecamp/test.py",
+		"/home/zoran/.config/sublime-text/Packages/User/python3.sublime-build",
+		"/home/zoran/python_projects/automate the boring stuff/main.py",
+		"/home/zoran/python_projects/standard_library.py",
+		"/home/zoran/python_projects/python crash course/exercise5-10.py",
+		"/home/zoran/python_projects/python crash course/exercise3-4.py",
+		"/home/zoran/python_projects/python crash course/exercise6-4.py",
+		"/home/zoran/python_projects/python crash course/exercise6-2.py",
+		"/home/zoran/python_projects/python crash course/exercise6-1.py",
+		"/home/zoran/python_projects/modules/pizza.py",
+		"/home/zoran/python_projects/python crash course/exercise6-10.py",
+		"/home/zoran/python_projects/python crash course/exercise6-8.py",
+		"/home/zoran/python_projects/python crash course/exercise6-9.py",
+		"/home/zoran/python_projects/python crash course/exercise7-1.py",
+		"/home/zoran/python_projects/python crash course/exercise5-11.py",
+		"/home/zoran/python_projects/python crash course/exercise5-4.py",
+		"/home/zoran/python_projects/python crash course/exercise5-3.py",
+		"/home/zoran/python_projects/python crash course/exercise5-8.py",
+		"/home/zoran/python_projects/python crash course/exercise6-3.py",
+		"/home/zoran/python_projects/python crash course/exercise7-5.py",
+		"/home/zoran/python_projects/python crash course/exercise8-7.py",
+		"/home/zoran/python_projects/python crash course/exercise4-2.py",
+		"/home/zoran/python_projects/python.sublime-project",
+		"/home/zoran/python_projects/python crash course/exercise4-11.py",
+		"/home/zoran/python_projects/exercise/decode_web_page.py",
+		"/home/zoran/python_projects/exercise/test.py",
+		"/home/zoran/python_projects/test folder/test02.txt",
+		"/home/zoran/python_projects/interesting code/password_generator.py",
+		"/home/zoran/password_generator.py",
+		"/home/zoran/python_projects/python crash course/exercise5-9.py"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 166.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"amadeus",
+			"filename",
+			"answer",
+			"num2",
+			"num1",
+			"('",
+			"name",
+			"file",
+			"Python",
+			"s:",
+			"replace",
+			"content",
+			"__init__",
+			"()",
+			"__init__",
+			"()",
+			"restaurant",
+			"title",
+			"age",
+			"prvi",
+			"self",
+			"name",
+			"last",
+			"name",
+			"vrsta",
+			"ime",
+			"medium_password",
+			"listofcharacters",
+			"ascii_letters",
+			"flip_case",
+			"flip_bit",
+			"user_input",
+			"user_choice",
+			"computer_action",
+			"computer_choice",
+			"[::-1]",
+			"took",
+			"startup",
+			"broj",
+			"!')\n",
+			"'''\npogledaj prvu verziju rock_paper_scissors.py\nto sam odradio bez problema. ovdje me najvise mucilo bodovanje.\nprvo sam htio da sve radi jedna funkcija ali sam na kraju\nipak podjelio zadatke. prva funkcija odabire pobjednika,\na druga funkcija popunjava bodove u dictionary.\n\nzato je bitno odabrati return vrjednost funkcije\ni score{} dictionary mora biti u global scope\nkako bi rezultat ostao zapamcen do kraja igre\n\n    > different code versions can be found at:\nhttps://realpython.com/python-rock-paper-scissors/\nhttps://realpython.com/python-enumerate/\n\n'''\n\n\nimport random  # random list item choice\n\n\ndef compare_actions(player, ai):\n    '''\n    takes 2 actions and returns a winner\n    '''\n    if player == ai:\n        print(f'ai took {ai} action, player took {player} action')\n        # print('it is a tie! GG!')\n        winner = 'ai', 'player'\n    elif player == 'rock':\n        if ai == 'paper':\n            print(f'ai took {ai} action, player took {player} action')\n            # print('ai wins!')\n            winner = 'ai'\n        else:\n            print(f'ai took {ai} action, player took {player} action')\n            # print('player wins')\n            winner = 'player'\n    elif player == 'paper':\n        if ai == 'scissors':\n            print(f'ai took {ai} action, player took {player} action')\n            # print('ai wins!')\n            winner = 'ai'\n        else:\n            print(f'ai took {ai} action, player took {player} action')\n            # print('player wins!')\n            winner = 'player'\n    elif player == 'scissors':\n        if ai == 'rock':\n            print(f'ai took {ai} action, player took {player} action')\n            # print('ai wins!')\n            winner = 'ai'\n        else:\n            print(f'ai took {ai} action, player took {player} action')\n            # print('player wins!')\n            winner = 'player'\n    return winner\n\n\ndef count_score(winner):\n    '''\n    funkcija popunjava dictionary\n    score = {'ai': 0, 'player': 0}\n    mora biti definiran globalno\n    jer u suprotnom nece pamtiti prijasnje rezultate\n    '''\n\n    if winner == 'player':\n        score['player'] += 1\n    elif winner == 'ai':\n        score['ai'] += 1\n    elif winner == 'tie':\n        pass\n\n    return score\n\n\n\n# programm will pick random item from this list:\nactions = ['rock', 'paper', 'scissors']\n\n# score must be defined as global if you want it to store results until the end\nscore = {'ai': 0, 'player': 0}\n\nwhile True:\n    player = input('type stop to quit\\nplease input your answer:\\n>')\n    if player == 'stop':\n        break\n    ai = random.choice(actions)\n    winner = compare_actions(player, ai)\n    score = count_score(winner)\n    print(winner)\n    print(score)\n\n\n# tags: function, return, count, score, winner\n",
+			"player",
+			"player\\",
+			"player",
+			"ai",
+			"user",
+			"player",
+			"compare_answers",
+			"compare",
+			"answers",
+			"prompt03",
+			"number",
+			"% ",
+			"reverse_num",
+			"even",
+			"auto-complete",
+			"auto",
+			"'''",
+			"python",
+			"physics",
+			"princeton",
+			"sleep",
+			"exercise89",
+			"Builds",
+			"damnwidget"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"player1"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 58.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 146.0
+	},
+	"pinned_build_system": "Anaconda Python Builder",
+	"project": "data_visualization.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"9-5",
+				"python crash course/exercise9-5.py"
+			],
+			[
+				"9-3",
+				"python crash course/exercise9-3.py"
+			],
+			[
+				"bash",
+				"Bash"
+			],
+			[
+				"make_shirt()",
+				"python crash course/exercise8-6.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 560.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/python_projects/learning_log/learning_log.sublime-project"
+			]
+		],
+		"width": 426.0
+	},
+	"select_symbol":
+	{
+		"height": 49.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 670.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 322.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

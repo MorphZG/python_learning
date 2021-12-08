@@ -1,0 +1,8 @@
+This file is created for exercise10-1.py (chapter 10, page 191)
+In Python you can... work with many different data types
+In Python you can... build objects and define methods
+In Python you can... scrape information from web pages
+In Python you can... analyze tons of data in short time span
+In Python you can... work on machine learning projects
+In Python you can... build automated bots to do job for you
+In Python you can... use many different modules to help you
