@@ -49,9 +49,7 @@ keep drawing cards unless their score goes over 16.
 - After the game ends, ask the user if they'd like to play again. Clear the console for a fresh start.
 
 
-
 ##      <! --- For "extra hard" challange don't read any more hints!
-
 
 
 #Hint 3: Download and read this flow chart I've created: 

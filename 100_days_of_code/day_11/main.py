@@ -1,15 +1,9 @@
-# if computer have BJ it wins no matter what
-# if an ace is drawn, count it as 11. but if total goes over 21, count as 1
-# game ends immediately if user goes over 21 or if the user or comp gets a BJ
-# ask the user if they want another card
-# once the user is done and no longer wants to draw, let the computer play.
-# computer should keep drawing unless they score goes over 16.
-# compare scores for win, loss or draw.
-# print out the player's and computers final hand and their scores at the end
-# after game ends, ask the user if he wants to play again
-# clear the console for a fresh start.
 
 import random
+import replit
+from art import logo
+from rules import show_help
+
 
 def deal_cards(deck_of_cards, number, destination):
     '''
@@ -29,51 +23,163 @@ def deal_cards(deck_of_cards, number, destination):
 
 
 def calculate_score(list_of_cards):
-    ''' calculates the score in the list of cards '''
-    score = 0
-    for value in list_of_cards:
-        score += value
+    '''
+    return 0 if blackjack
+    replace 11 with 1 if score goes above 21
+    return sum(list_of_cards)
+    '''
+    score = sum(list_of_cards)
 
-    return score
+    if len(list_of_cards) == 2 and score == 21:
+        return 0  # represent blackjack with zero
 
-# first card is Ace
-card_deck = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
-user_cards = []
-computer_cards = []
+    elif score > 21 and 11 in list_of_cards:
+        list_of_cards.remove(11)
+        list_of_cards.append(1)
+        score = sum(list_of_cards)
+        return score
 
-# always 'y' while in production
-wanna_play = 'y' #input('Do you want to play game of blackjack? (y/n)')
+    else:
+        return score
 
-if wanna_play == 'y':
-    # deal first 2 cards to user
-    cards = deal_cards(card_deck, 2, user_cards)
+
+def compare(user_score, computer_score):
+    '''
+    compare score between 2 players
+    detect blackjack if score is 0
+    print the text string as a result
+    '''
+    if user_score == computer_score:
+        print(f'User score: {user_score}, Computer score: {computer_score}')
+        print('Its a draw!')
+    elif computer_score == 0:
+        print('Computer have a BLACKJACK! You loose!')
+    elif user_score == 0:
+        print('User have a BLACKJACK! You win!')
+    elif user_score > 21:
+        print('You went over! You loose!')
+    elif computer_score > 21:
+        print('Computer went over! You win!')
+    else:
+        if user_score > computer_score:
+            print(f'User score: {user_score}, Comp score: {computer_score} you win!')
+        elif user_score < computer_score:
+            print(f'Computer score: {computer_score}, User score: {user_score} you loose!')
+
+
+
+
+def play_game():
+    ''' game start '''
+
+    # first card is Ace, counts as 1 if you go over 21
+    card_deck = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+    user_cards = []
+    user_score = 0
+    computer_cards = []
+    computer_score = 0
+    game_on = True  # flag
+
+    deal_cards(card_deck, 2, user_cards)
+    deal_cards(card_deck, 2, computer_cards)
     user_score = calculate_score(user_cards)
-    print(f'Your cards: {user_cards}, your score: {user_score}')
-    # user bj check
-    if user_score == 21:
-        print('User have a blackjack!')
-    # deal first 2 cards to computer but print only first
-    cards = deal_cards(card_deck, 2, computer_cards)
     computer_score = calculate_score(computer_cards)
-    print(f'Computers first and second card: {computer_cards[0]}, {computer_cards[1]}')
-    # computer bj check
-    if computer_score == 21:
-        print('Computer have a blackjack!')
+
+    print(f'\tuser cards: {user_cards}, score: {user_score}')
+    print(f'\tcomputer cards: {computer_cards[0]}')
 
 
+# early finish, BLACKJACK in first hand
+    if computer_score == 0:
+        print('Computer have a BLACKJACK!')
+        game_on = False
+        play = input('Do you want to play a game of blackjack? (y/n) ')
+        if play == 'y':
+            replit.clear()
+            print(logo)
+            play_game()
+        else:
+            exit()
+
+# early finish, BLACKJACK in first hand
+    elif user_score == 0:
+        print('User have a BLACKJACK!')
+        game_on = False
+        play = input('Do you want to play a game of blackjack? (y/n) ')
+        if play == 'y':
+            replit.clear()
+            print(logo)
+            play_game()
+        else:
+            exit()
+
+# enter main loop after first hand
+    while game_on:
+        draw_more = input('Do you want another card?')
+        
+        # user draw cards if you answer 'y' in main loop
+        if draw_more == 'y':
+            deal_cards(card_deck, 1, user_cards)
+            user_score = calculate_score(user_cards)
+            print(f'\tuser cards: {user_cards}, score: {user_score}')
+            if user_score > 21:
+                compare(user_score, computer_score)
+                play = input('Would you like to play again? (y/n) ')
+                if play == 'y':
+                    replit.clear()
+                    print(logo)
+                    play_game()
+                else:
+                    exit()
+
+        # computer draw cards if you answer 'n' in main loop
+        elif draw_more == 'n':
+            while draw_more:
+                
+                if computer_score < 17:
+                    deal_cards(card_deck, 1, computer_cards)
+                    computer_score = calculate_score(computer_cards)
+                
+                elif computer_score > 21:
+                    draw_more = False
+                    compare(user_score, computer_score)
+                    print()
+                    play = input('Would you like to play again? (y/n) ')
+                    if play == 'y':
+                        replit.clear()
+                        print(logo)
+                        play_game()
+                    else:
+                        exit()
+  
+                else:
+                    draw_more = False
+                    compare(user_score, computer_score)
+                    print()
+                    play = input('Would you like to play again? (y/n) ')
+                    if play == 'y':
+                        replit.clear()
+                        print(logo)
+                        play_game()
+                    else:
+                        exit()
+    return
 
 
+# program start here. call play_game() if answer is 'y'
+# or show help if answer is 'help'
+while True:
+    print('Type "help" for more info about game rules')
+    play = input('Do you want to play a game of blackjack? (y/n) ')
+    if play == 'y':
+        replit.clear()
+        print(logo)
+        play_game()
+    elif play == 'help':
+        show_help()
+    else:
+        exit()
 
-'''
-print(f'Your cards: [card_1, card_2], current score: {score}')
-print(f'Computers first card: {card_1}')
-
-input('Type "y" to get another card, type "n" to pass')
-if y:
-    print(f'Your final hand: [card_1, card_2], final score: {score}')
-    print(f'Computers final hand: [card_1, card_2, card_3], final score: {score}')
-    print('You lose')
-'''
 
 #modules: replit, random
-#tags: choices(), choice()
+#tags: choices(), input(), function, loop, if, elif, else, game
