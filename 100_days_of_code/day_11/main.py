@@ -73,15 +73,15 @@ def play_game():
     ''' game start '''
 
     # first card is Ace, counts as 1 if you go over 21
-    card_deck = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+    CARD_DECK = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
     user_cards = []
     user_score = 0
     computer_cards = []
     computer_score = 0
     game_on = True  # flag
 
-    deal_cards(card_deck, 2, user_cards)
-    deal_cards(card_deck, 2, computer_cards)
+    deal_cards(CARD_DECK, 2, user_cards)
+    deal_cards(CARD_DECK, 2, computer_cards)
     user_score = calculate_score(user_cards)
     computer_score = calculate_score(computer_cards)
 
@@ -119,7 +119,7 @@ def play_game():
         
         # user draw cards if you answer 'y' in main loop
         if draw_more == 'y':
-            deal_cards(card_deck, 1, user_cards)
+            deal_cards(CARD_DECK, 1, user_cards)
             user_score = calculate_score(user_cards)
             print(f'\tuser cards: {user_cards}, score: {user_score}')
             if user_score > 21:
@@ -137,7 +137,7 @@ def play_game():
             while draw_more:
                 
                 if computer_score < 17:
-                    deal_cards(card_deck, 1, computer_cards)
+                    deal_cards(CARD_DECK, 1, computer_cards)
                     computer_score = calculate_score(computer_cards)
                 
                 elif computer_score > 21:
