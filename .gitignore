@@ -1,0 +1,10 @@
+#   Sublime-text, workspace and project files
+#   both files depends on personal setup
+*.sublime-workspace
+*.sublime-project
+
+# __pycache__ folder and files
+**/__pycache__
+*.pyc
+*.pyo
+
