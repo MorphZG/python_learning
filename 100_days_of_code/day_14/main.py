@@ -1,4 +1,4 @@
-#import replit
+import replit
 import random
 from game_data import data as data_
 import art
@@ -30,19 +30,27 @@ def compare_ab(follower_count_a, follower_count_b):
 print(art.logo)
 score = 0  # score should equal number of winners in list
 game_on = True  # flag < ------------------------------------------- Flag!!
+
+# person at position B should stay in game and jump to position A to compare with new person B
+# need first person to be out of the loop, will switch place later
+person_b = get_person2(data_)
 while game_on:
     ## variables person A
-    person_a = get_person2(data_)
+    person_a = person_b  # person B jumps to position A
     name_a = person_a["name"]
     description_a = person_a["description"]
     country_a = person_a["country"]
     followers_a = person_a["follower_count"]
     ## variables person B
-    person_b = get_person2(data_)
+    person_b = get_person2(data_)  # new person B
     name_b = person_b["name"]
     description_b = person_b["description"]
     country_b = person_b["country"]
     followers_b = person_b["follower_count"]
+    ## prevent comparison between same entries
+    if person_b == person_a:
+        person_b = get_person2(data_)  # new person B
+
 
     ## prints
     print(f"Compare A: {name_a}, {description_a} from {country_a}")
@@ -51,6 +59,9 @@ while game_on:
     print(f"Compare B: {name_b}, {description_b} from {country_b}")
     print(f"Person B followers: {followers_b}")
     answer = input('Who has the more followers? A / B: ').lower()
+
+    ## clear the screen, show the score and loop again
+    replit.clear() 
 
     ## compare followers count
     if answer == compare_ab(followers_a, followers_b):
@@ -61,21 +72,11 @@ while game_on:
         print(f'Game over! Your final score: {score}')
 
 
-# # <! --- snippets
+'''
+    <! --- AUTHOR'S SOLUTION
 
-# # <! --- keys:
-# 'name'
-# 'follower_count'
-# 'description'
-# 'country'
 
-# # data_ list have 50 entries
-# print(len(data_))
-# # instead of pulling random values i can pull random index
-# data_index = [x for x in range(len(data_))]
-# random_index = random.choice(data_index)
-# print(data_[random_index])
-
+'''
 
 #module: random, replit
-#tags: game, score, function, pop(), choice()
+#tags: game, score, function, choice(), while loop

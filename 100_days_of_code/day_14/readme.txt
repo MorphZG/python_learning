@@ -10,7 +10,9 @@ debugging and final solution. Here is how i will do it:
 - Run the code often, fix mistakes before moving on to next problem
 - Use comments and make the code easy to read
 - Refactor and optimize at the end
-- Check the authors solution only when i am done and compare
+- Check the author's solution only when i am done and compare
+- For future reference keep my code as it is and paste the author's
+code at the bottom, commented out
 
 Go to https://replit.com/@appbrewery and look for higher-lower-final and try
 the final version of the game so i can understand exactly what is happening
