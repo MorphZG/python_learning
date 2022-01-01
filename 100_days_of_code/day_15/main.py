@@ -1,37 +1,6 @@
-MENU = {
-    "espresso": {
-        "ingredients": {
-            "water": 50,
-            "coffee": 18,
-        },
-        "cost": 1.5,
-    },
-    "latte": {
-        "ingredients": {
-            "water": 200,
-            "milk": 150,
-            "coffee": 24,
-        },
-        "cost": 2.5,
-    },
-    "cappuccino": {
-        "ingredients": {
-            "water": 250,
-            "milk": 100,
-            "coffee": 24,
-        },
-        "cost": 3.0,
-    }
-}
+from menu import MENU, resources
 
-resources = {
-    "water": 300,
-    "milk": 200,
-    "coffee": 100,
-}
-
-
-cash = 0
+money = 0
 
 
 # print report
@@ -40,21 +9,21 @@ def report():
     print(f"Water: {resources['water']}ml")
     print(f"Milk: {resources['milk']}ml")
     print(f"Coffee: {resources['coffee']}g")
-    print(f'Money: ${cash}')
+    print(f'Money: ${money}')
 
 
-# make requested drinks, spend resources and earn cash
+# make requested drinks, spend resources and earn money
 def make_espresso():
-    global cash
-    cash += 1.5
+    global money
+    money += 1.5
     resources['water'] -= 50
     resources['coffee'] -= 18
     print("Here is your espresso. Enjoy!")
 
 
 def make_latte():
-    global cash
-    cash += 2.5
+    global money
+    money += 2.5
     resources['water'] -= 200
     resources['milk'] -= 150
     resources['coffee'] -= 24
@@ -62,8 +31,8 @@ def make_latte():
 
 
 def make_cappucino():
-    global cash
-    cash += 3.0
+    global money
+    money += 3.0
     resources['water'] -= 250
     resources['milk'] -= 100
     resources['coffee'] -= 24
