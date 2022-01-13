@@ -119,4 +119,5 @@ while machine_on:
                 make_cappucino()
 
 
+#note: dictionary structure
 #tags: function, *dictionary, loop, procedure, game
