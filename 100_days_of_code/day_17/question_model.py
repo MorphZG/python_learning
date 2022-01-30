@@ -1,3 +1,8 @@
+'''
+create question objects with attributes text and answer
+'''
+
+
 class Question:
     '''Question class'''
 
