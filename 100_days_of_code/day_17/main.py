@@ -1,10 +1,10 @@
 from data import question_data
 from question_model import Question
-from quiz_brain import *
+from quiz_brain import QuizBrain
 
 
-#new_question = Question('2+3=5', True)
-#print(new_question)
+# new_question = Question('2+3=5', True)
+# print(new_question)
 
 # create list of question objects
 # i will use Question() class from question_model.py
@@ -18,11 +18,16 @@ for question in question_data:
 main_quiz = QuizBrain(question_bank)
 main_quiz.next_question()
 
-# construct a while loop that will throw questions as long as user gives
-# correct answer. the loop ends when there is no more questions or user
-# gives wrong answer.
+# while loop throws questions as long as there are questions in the list
 while main_quiz.still_has_questions():
     main_quiz.next_question()
 
-# CONTINUE at video 158, min 01:00 
+# after loop is done, print the following statements:
+# "You've completed the quiz"
+# "Your final score was: {main.quiz.score} / {number of questions}
+print("You've completed the quiz.")
+print(f"Your final score was: {main_quiz.user_score}/{len(question_bank)}")
+
+
+
 #tags: class, list dictionary objects, modules
