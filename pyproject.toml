@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "100_days_of_code"
+name = "python_exercise"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
