@@ -1,4 +1,4 @@
-### Disclaimer!\
+### Disclaimer!
 All these files and small projects are not designed by me. These are the \
 exercises i completed. No cheating, no copy and paste. Everything you see \
 here is everything i have learned through various resources. In some files \
