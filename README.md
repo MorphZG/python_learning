@@ -21,7 +21,7 @@ to learn about git CLI commands and contribute to some github projects.
 
 
 My favorite projects so far:
-- coffee machine - 100_days_of_code/day_15
+- [100 days of code](https://github.com/MorphZG/python_projects/tree/main/100_days_of_code)
 - 
 
 
