@@ -19,24 +19,24 @@ rises the level of challange to push
 
 
 ### index
-<br>day 01 ------------------- add short description
-<br>day 02 ------------------- add short description
-<br>day 03 ------------------- add short description
-<br>day 04 ------------------- add short description
-<br>day 05 ------------------- add short description
-<br>day 06 ------------------- add short description
-<br>day 07 ------------------- add short description
-<br>day 08 ------------------- add short description
-<br>day 09 ------------------- add short description
-<br>day 10 ------------------- add short description
-<br>day 11 ------------------- add short description
-<br>day 12 ------------------- add short description
-<br>day 13 ------------------- add short description
-<br>day 14 ------------------- add short description
-<br>day 15 ------------------- add short description
-<br>day 16 ------------------- add short description
-<br>day 17 ------------------- add short description
-<br>day 18 ------------------- add short description
+<br>Day 1 - Beginner - Working with Variables in Python to Manage Data
+<br>Day 2 - Beginner - Understanding Data Types and How to Manipulate Strings
+<br>Day 3 - Beginner - Control Flow and Logical Operators
+<br>Day 4 - Beginner - Randomisation and Python Lists
+<br>Day 5 - Beginner - Python Loops
+<br>Day 6 - Beginner - Python Functions & Karel
+<br>Day 7 - Beginner - Hangman
+<br>Day 8 - Beginner - Function Parameters & Caesar Cipher
+<br>Day 9 - Beginner - Dictionaries, Nesting and the Secret Auction
+<br>Day 10 - Beginner - Functions with Outputs
+<br>Day 11 - Beginner - The Blackjack Capstone Project
+<br>Day 12 - Beginner - Scope & Number Guessing Game
+<br>Day 13 - Beginner - Debugging_ How to Find and Fix Errors in your Code
+<br>Day 14 - Beginner - Higher Lower Game Project
+<br>Day 15 - Intermediate - Local Development Environment Setup & the Coffee Machine
+<br>Day 16 - Intermediate - Object Oriented Programming (OOP)
+<br>Day 17 - Intermediate - The Quiz Project & the Benefits of OOP
+<br>Day 18 - Intermediate - Turtle & the Graphical User Interface (GUI)
 
 
 #tags: index, link, book resources, readme,
