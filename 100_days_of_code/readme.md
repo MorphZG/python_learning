@@ -1,6 +1,6 @@
 # 100 days of code
 ## instructor
-Angela Yu
+Angela Yu\
 Developer and lead instructor at the London App Brewery.
 
 **_completion:_** still in progress
