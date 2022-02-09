@@ -56,4 +56,5 @@ https://ehmatthes.github.io/pcc_2e/beyond_pcc/beyond_pcc/
     Recommended reading:
 https://ehmatthes.github.io/pcc_2e/recommended_reading/recommended_reading/
 
-#tags: index, link, book resources, readme,
+
+#tags: index, resources, readme,
