@@ -1,6 +1,6 @@
-
 import random
 import replit
+
 from art import logo
 from rules import show_help
 
@@ -18,7 +18,7 @@ def deal_cards(deck_of_cards, number, destination):
     random_choices = random.choices(deck_of_cards, k=number)
     for card in random_choices:
         destination.append(card)
-    
+
     return destination
 
 
@@ -65,8 +65,6 @@ def compare(user_score, computer_score):
             print(f'User score: {user_score}, Comp score: {computer_score} you win!')
         elif user_score < computer_score:
             print(f'Computer score: {computer_score}, User score: {user_score} you loose!')
-
-
 
 
 def play_game():
@@ -116,7 +114,7 @@ def play_game():
 # enter main loop after first hand
     while game_on:
         draw_more = input('Do you want another card?')
-        
+
         # user draw cards if you answer 'y' in main loop
         if draw_more == 'y':
             deal_cards(CARD_DECK, 1, user_cards)
@@ -135,11 +133,11 @@ def play_game():
         # computer draw cards if you answer 'n' in main loop
         elif draw_more == 'n':
             while draw_more:
-                
+
                 if computer_score < 17:
                     deal_cards(CARD_DECK, 1, computer_cards)
                     computer_score = calculate_score(computer_cards)
-                
+
                 elif computer_score > 21:
                     draw_more = False
                     compare(user_score, computer_score)
@@ -151,7 +149,7 @@ def play_game():
                         play_game()
                     else:
                         exit()
-  
+
                 else:
                     draw_more = False
                     compare(user_score, computer_score)
