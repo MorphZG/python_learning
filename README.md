@@ -11,10 +11,13 @@ exercises i completed. No cheating, no copy and paste. Everything you see \
 here is everything i have learned through various resources. In some files \
 you will see soultion by the author commented at the bottom.
 
-Almost all files have tags at the bottom line so i can grep through them.
+Almost all files have tags at the bottom line so i can grep through them.\
+That way i can search for important topics like all exercises where i use\
+classes or some builtin functions. All tags are written as singular\
+(class instead of classes or loop instead of loops)
 
 ```
-$ grep -rnB1 "#tags.*function"
+$ grep -rnB1 "#tags.*class"
 
 -r recursive
 -n line number
