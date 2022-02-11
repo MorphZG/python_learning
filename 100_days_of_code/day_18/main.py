@@ -46,6 +46,7 @@ screen.colormode(255)
 
 screen_width = screen.window_width()
 screen_height = screen.window_height()
+tim.hideturtle()  # make turtle invisible
 
 # go to starting X, Y position. include the dot spacing of 50
 # (screen_width / 2) because default position is in the middle of screen
