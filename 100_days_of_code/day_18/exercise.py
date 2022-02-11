@@ -142,5 +142,5 @@ tim.reset()
 screen.exitonclick()
 
 
-#modules: turtle
-#tags: turtle drawing,
+#modules: turtle, random
+#tags: turtle drawing, random color, 
