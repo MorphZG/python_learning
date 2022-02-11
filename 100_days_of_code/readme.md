@@ -37,7 +37,8 @@ rises the level of challange to push
 <br>Day 16 - Intermediate - Object Oriented Programming (OOP)
 <br>Day 17 - Intermediate - The Quiz Project & the Benefits of OOP
 <br>Day 18 - Intermediate - Turtle & the Graphical User Interface (GUI)
-<br>Day 19 ... ...
+<br>Day 19 - Intermediate - Instances, State and Higher Order Functions
+<br>
 
 
 #tags: index, resources, readme,
