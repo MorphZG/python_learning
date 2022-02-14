@@ -17,24 +17,27 @@ xpos = -230  # starting coordinates
 ypos = -130
 
 for color in colors:
-    turtle = Turtle(shape='turtle')
-    turtle.color(color)
-    turtle.penup()
-    turtle.goto(xpos, ypos)
-    tlist.append(turtle)
-    ypos += 50
+    turtle_object = Turtle(shape='turtle')
+    turtle_object.color(color)
+    turtle_object.penup()
+    turtle_object.goto(xpos, ypos)
+    tlist.append(turtle_object)
+    ypos += 50  # position turtles on starting line
 
 race_on = False
 if user_bet:  # if user_bet variable exist, user placed the bet
     race_on = True
 # if user_bet exist than race_on is True and loop starts
 while race_on:
-    for turtle in tlist:
-        turtle.forward(randint(1, 30))
-        if turtle.xcor() > 220:
-            winner = turtle
+    for turtle_object in tlist:
+        turtle_object.forward(randint(1, 30))
+        if turtle_object.xcor() > 220:  # finish line on x coordinate
+            winner = turtle_object.pencolor()  # pencolor returns turtle color
             race_on = False
-
+            if winner == user_bet:
+                print(f'You won! {winner.title()} have won the race!')
+            else:
+                print(f'You lost! {winner.title()} have won the race!')
 
 
 screen.exitonclick()
