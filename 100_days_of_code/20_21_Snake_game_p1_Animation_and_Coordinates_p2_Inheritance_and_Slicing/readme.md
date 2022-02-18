@@ -1,15 +1,15 @@
 ### day 20 and 21 ###
 
-**Building a Snake game!**
+**Building a Snake game!**\
 This one makes me happy. Brings back the memories on my firs Nokia 3310.
 Snake project will be split in 2 parts and across 2 "days", or should i better
 say 2 folders.
 
-**first part**
+**first part**\
 In first part instructor presents the project and breakdown the goals on smaller
 parts. Create a snake body, move the snake and control the snake.
 
-**second part**
+**second part**\
 In second part i will work on: detect collison with food, create a scoreboard,
 detect collision with walls and detect collision with tail
 
@@ -34,7 +34,7 @@ creating a Snake() class to make the code simpler and modable. At the end, i
 will have 3 separate classes. Snake(), Food() and Scoreboard() with every
 class in its own separate file.
 
-NOTE!
+**NOTE!**\
 Its interesting how snake.py module is designed. Movement of snake. Snake is
 built out of separate turtle segments and they all move together as a one
 compact object following the snakes head. Snake have 3 parts, loop goes from
