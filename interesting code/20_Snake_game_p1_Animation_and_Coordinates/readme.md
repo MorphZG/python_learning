@@ -31,6 +31,12 @@ creating a Snake() class to make the code simpler and modable. At the end, i
 will have 3 separate classes. Snake(), Food() and Scoreboard() with every
 class in its own separate file.
 
-
+NOTE!
+Its interesting how snake.py module is designed. Movement of snake. Snake is
+built out of separate turtle segments and they all move together as a one
+compact object following the snakes head. Snake have 3 parts, loop goes from
+last to first, takes the current position of middle part and than tells the 
+last part to goto that position. Loop moves on in infinite loop so whole snake
+will continue moving.
 
 #tags: readme
