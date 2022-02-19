@@ -30,4 +30,4 @@ screen.exitonclick()
 
 
 #modules: turtle, time
-#tags: snake game, coordinates, reverse loop,
+#tags: snake game, coordinates, reverse loop, class inhertance
