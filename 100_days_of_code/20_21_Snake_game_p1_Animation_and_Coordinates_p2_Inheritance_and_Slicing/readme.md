@@ -1,6 +1,6 @@
 ### day 20 and 21
 
-**Building a Snake game!**
+**Building a Snake game!**\
 This one makes me happy. Brings back the memories on my firs Nokia 3310.
 Snake project will be split in 2 parts and across 2 "days", or should i better
 say 2 folders.
