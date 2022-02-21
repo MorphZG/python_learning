@@ -1,7 +1,6 @@
+### day_17
 
-day_17
-
-Building a quiz app.
+**Building a quiz app.**  
 Split the app in 4 different files: main.py, data.py, question_model.py, quiz_brain.py
 
 I learned about class basics from another material, book "Python crash course"
@@ -13,4 +12,4 @@ each other instead of self.
 day_17 got me helped me to better understand object oriented paradigm. I found
 some e-books about the topic and hopefuly will read them soon.
 
-
+#tags: readme

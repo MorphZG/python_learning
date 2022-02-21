@@ -1,7 +1,10 @@
-I have downloaded these files:
-    coffee_maker.py
-    menu.py
-    money_machine.py
+### day_16
+
+Building a virtual coffee machine with **OOP** principles.  
+I have downloaded these files:  
+* coffee_maker.py
+* menu.py
+* money_machine.py
 
 Instructor wants me to complete the project by not looking at those files
 but use them as some external library. I will import those files to main.py and
@@ -13,22 +16,16 @@ Try to learn more about classes and how different objects can be connected with
 methods. How CoffeeMaker.make_coffee() deducts ingridients from available
 resources depending on type of drink? I can create MenuItem() object and pass
 that object to CoffeeMaker(). How MenuItem() and Menu() works together, look
-at __init__() of both.
+at \_\_init\_\_() of both.
 
-
-#    <! --- (copy/paste)
 Here are the requirements for the project
+* Prompt user by asking: "What would you like? (espresso/latte/cappuccino)"
+* Turn off the Coffee Machine by entering "off" to the prompt.
+* Print report.
+* Check resources sufficient?
+* Process coins.
+* Check transaction successful?
+* Make Coffee.
 
-1. Prompt user by asking: "What would you like? (espresso/latte/cappuccino)"
- 
-2. Turn off the Coffee Machine by entering "off" to the prompt.
-   
-3. Print report.
 
-4. Check resources sufficient?
-
-5. Process coins.
-
-6. Check transaction successful?
-
-7. Make Coffee.
+#tags: readme
