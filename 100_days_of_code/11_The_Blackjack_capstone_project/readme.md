@@ -1,12 +1,11 @@
-day-11\
-Blackjack
+### day-11
 
 ### Blackjack Project
 
-Difficulty Normal: Use all Hints below to complete the project.
-Difficulty Hard: Use only Hints 1, 2, 3 to complete the project.
-*Difficulty Extra Hard*: Only use Hints 1 & 2 to complete the project.
-Difficulty Expert: Only use Hint 1 to complete the project.
+Difficulty Normal: Use all Hints below to complete the project.  
+Difficulty Hard: Use only Hints 1, 2, 3 to complete the project.  
+*Difficulty Extra Hard*: Only use Hints 1 & 2 to complete the project.  
+Difficulty Expert: Only use Hint 1 to complete the project.  
 
 
 #### Our Blackjack House Rules
@@ -86,3 +85,5 @@ https://drive.google.com/uc?export=download&id=1rDkiHCrhaf9eX7u7yjM1qwSuyEk-rPnt
 
 #Hint 14: Ask the user if they want to restart the game. If they answer yes, clear the console and start a new game of blackjack and show the logo from art.py.
 ```
+
+#tags: readme

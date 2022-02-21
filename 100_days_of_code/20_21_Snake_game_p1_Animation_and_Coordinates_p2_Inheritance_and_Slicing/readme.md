@@ -1,11 +1,11 @@
 ### day 20 and 21
 
-**Building a Snake game!**\
+**Building a Snake game!**  
 This one makes me happy. Brings back the memories on my firs Nokia 3310.
 Snake project will be split in 2 parts and across 2 "days", or should i better
 say 2 folders.
 
-    ###### first part
+**first part**  
 In first part instructor presents the project and breakdown the goals on smaller
 parts. Create a snake body, move the snake and control the snake.
 
@@ -16,7 +16,7 @@ one behind the other in the center of the screen. Each turtle should be a white
 square with default size of 20x20.
 
 Huge knowledge bomb on how different pieces are shown on the screen. If i try
-to move each snake segment as i did before i would get strange animation where
+to move each snake segment as i normaly would, i get strange animation where
 each segment moves with a delay or head spins in circle while body continue
 forward. I had to rethink on how to move different parts on the screen since
 they are not linked together. Thanks to instructor i was able to solve the
@@ -30,17 +30,29 @@ creating a Snake() class to make the code simpler and modable. At the end, i
 will have 3 separate classes. Snake(), Food() and Scoreboard() with every
 class in its own separate file.
 
-    ###### second part
+**second part**  
 In second part i will work on: detect collison with food, create a scoreboard,
 detect collision with walls and detect collision with tail
 
+Defining the Food class that will first inherit from the Turtle class, then
+add additional attributes like color, size and random coordinates. We need
+Turtle as parent (super) class because of its methods listed in official
+documentation. Adding small scoreboard at the top. Surprise! Surprise!
+Scoreboard will also be another turtle. Defined in scoreboard.py i will use
+turtle.write() method to paste the text object screen.
 
-    **NOTE!**
+**note!**   
 Its interesting how snake.py module is designed. Movement of snake. Snake is
 built out of separate turtle segments and they all move together as a one
 compact object following the snakes head. Snake have 3 parts, loop goes from
 last to first, takes the current position of middle part and than tells the 
 last part to goto that position. While game_on, for loop moves snake_segments
 with goto(xpos, ypos)
+
+**edit**  
+Not sure why Snake class did not inherit from Turtle class.  
+Will find out later.
+
+
 
 #tags: readme
