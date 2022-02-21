@@ -38,7 +38,31 @@ rises the level of challange to push
 <br>Day 17 - Intermediate - The Quiz Project & the Benefits of OOP
 <br>Day 18 - Intermediate - Turtle & the Graphical User Interface (GUI)
 <br>Day 19 - Intermediate - Instances, State and Higher Order Functions
-<br>
+<br>Day 20 - Intermediate - Build the Snake Game Part 1_ Animation & Coordinates
+<br>Day 21 - Intermediate - Build the Snake Game Part 2_ Inheritance & List Slicing
+<br>Day 22 - Intermediate - Build Pong_ The Famous Arcade Game
+<br>Day 23 - Intermediate - The Turtle Crossing Capstone Project
+<br>Day 24 - Intermediate - Files, Directories and Paths
+<br>Day 25 - Intermediate - Working with CSV Data and the Pandas Library
+<br>Day 26 - Intermediate - List Comprehension and the NATO Alphabet
+<br>Day 27 - Intermediate - Tkinter, args, kwargs and Creating GUI Programs
+<br>Day 28 - Intermediate - Tkinter, Dynamic Typing and the Pomodoro GUI Application
+<br>Day 29 - Intermediate - Building a Password Manager GUI App with Tkinter
+<br>Day 30 - Intermediate - Errors, Exceptions and JSON Data_ Improving the Password
+<br>Day 31 - Intermediate - Flash Card App Capstone Project
+<br>Day 32 - Intermediate+ Send Email (smtplib) & Manage Dates (datetime)
+<br>Day 33 - Intermediate+ API Endpoints & API Parameters - ISS Overhead Notifier
+<br>Day 34 - Intermediate+ API Practice - Creating a GUI Quiz App
+<br>Day 35 - Intermediate+ Keys, Authentication & Environment Variables_ Send SMS
+<br>Day 36 - Intermediate+ Stock Trading News Alert Project
+<br>Day 37 - Intermediate+ Habit Tracking Project_ API Post Requests & Headers
+<br>Day 38 - Intermediate+ Workout Tracking Using Google Sheets
+<br>Day 39 - Intermediate+ Capstone Part 1_ Flight Deal Finder
+<br>Day 40 - Intermediate+ Capstone Part 2_ Flight Club
+
+
+
+
 
 
 #tags: index, resources, readme,
