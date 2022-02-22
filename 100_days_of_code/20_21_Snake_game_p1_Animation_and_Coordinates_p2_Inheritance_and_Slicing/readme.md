@@ -49,10 +49,6 @@ last to first, takes the current position of middle part and than tells the
 last part to goto that position. While game_on, for loop moves snake_segments
 with goto(xpos, ypos)
 
-**edit**  
-Not sure why Snake class did not inherit from Turtle class.  
-Will find out later.
-
 
 
 #tags: readme

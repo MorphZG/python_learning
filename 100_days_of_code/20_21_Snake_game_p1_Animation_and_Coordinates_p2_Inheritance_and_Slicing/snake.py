@@ -14,7 +14,6 @@ class Snake:
 
     def __init__(self):
         ''' initialize the snake '''
-
         self.snake_segments = []
         self.create_snake()
         # in snake.move() every segment of snake goto() the part before it
@@ -33,18 +32,6 @@ class Snake:
         for position in STARTING_POSITIONS:
             self.add_segment(position)
 
-    def move(self):
-        '''
-        let the snake continously move forward
-        body follows the head by taking position of segment in front
-        '''
-        for i in range(len(self.snake_segments)-1, 0, -1):  # loop from last to first index, reverse
-            xpos = self.snake_segments[i - 1].xcor()  # position of middle square
-            ypos = self.snake_segments[i - 1].ycor()  # position of middle square
-            self.snake_segments[i].goto(xpos, ypos)  # move last square to middle square
-
-        self.head.forward(MOVE_DISTANCE)
-
     def add_segment(self, position):
         ''' add a white square segment to snake '''
         square = Turtle(shape='square')
@@ -59,6 +46,18 @@ class Snake:
         position() of self.tail or last item in snake_segments
         '''
         self.add_segment(self.tail.position())
+
+    def move(self):
+        '''
+        let the snake continously move forward
+        body follows the head by taking position of segment in front
+        '''
+        for i in range(len(self.snake_segments)-1, 0, -1):  # loop from last to first index, reverse
+            xpos = self.snake_segments[i - 1].xcor()  # position of middle square
+            ypos = self.snake_segments[i - 1].ycor()  # position of middle square
+            self.snake_segments[i].goto(xpos, ypos)  # move last square to middle square
+
+        self.head.forward(MOVE_DISTANCE)
 
 
 # define the movement methods
