@@ -7,21 +7,20 @@ different elements and define game logic? As always, break down the problem in
 smaller parts and start solving them piece by piece.  
 
 My initial thought, the very first idea that i got was to create classes for  
-the stick (could not find the better word, hopefuly you know what it is),  
+the stick (instructor says its a paddle so i will stick to the convention),  
 the ball, scoreboard and terrain. Not sure will i need terrain class but the  
-final solution will crystalize along the way. So 4 modules, stick (instructor  
-say its a paddle), ball, scoreboard and terrain imported in to main.py.  
-Could possibly take some code snippets from "Snake game" i did in previous  
-section. I will compare my notes with instructor. See how they differ from   
-the final project and reflect on them.  
+final solution will crystalize along the way. So 4 modules, stick, ball,  
+scoreboard and terrain imported in to main.py. Could possibly take some code  
+snippets from "Snake game" i did in previous section. I will compare my notes  
+with instructor. See how they differ from the final project and reflect on them.  
 
 
 My breakdown (compare with instructor later):
 ```
 - define the environment
     - screen and window
-    - add separator, white line on Y axis
-- create sticks (player controled) for each player
+    - add separator, white line on Y axis (cosmetic, can come later)
+- create the paddle (player controled) for each player
     - one stick on each side (West and East)
     - must move on Y axis, vertical movement
 - create the ball
@@ -52,8 +51,16 @@ and colored black. Should stay on screen, even if user clicks on it so instead
 exitonclick() i should find another solution.  
 
 #### create and move a paddle
-Instructors says its a paddle so lets stick to the naming convention and call  
-it paddle instead of stick.  
+I must find a solution for creating the paddles on both sides of the screen,  
+West and East. Paddle class will inherit from Turtle. Paddles will initialize  
+with the following parameters:  
+`width=20; height=100; X_position=350(east); Y_position=0` 
+I need a method that will detect key press and move the paddle up or down  
+by 20 pixels. Player 1 will use the 'W' and 'S' keys while player 2 will use  
+'Up' and 'Down' arrow keys.   
 
+Official documentation recommends setting tracer() to zero to improve complex  
+animations. But if tracer() is set to zero i have to manualy update the changes  
+on screen with update(). Will try to play with different tracer() options  
 
 #tags: readme,
