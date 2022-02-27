@@ -56,4 +56,4 @@ screen.exitonclick()
 
 
 #modules: turtle, time, random
-#tags: snake game, coordinates, reverse loop, class inhertance, super()__init__()
+#tags: snake game, coordinates, reverse loop, class inhertance, super()__init__(), oop
