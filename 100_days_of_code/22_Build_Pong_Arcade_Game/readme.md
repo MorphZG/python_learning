@@ -45,12 +45,12 @@ Instructors breakdown:
 - keep score
 ```
 
-#### create the screen
+#### Create the screen
 My first assignment is to screate the screen. Size will be set to (800, 600),  
 and colored black. Should stay on screen, even if user clicks on it so instead  
 exitonclick() i should find another solution.  
 
-#### create and move a paddle
+#### Create and move a paddle
 I must find a solution for creating the paddles on both sides of the screen,  
 West and East. Paddle class will inherit from Turtle. Paddles will initialize  
 with the following attributes:  
@@ -64,7 +64,7 @@ Official documentation recommends setting tracer() to zero to improve complex
 animations. If tracer() is set to zero i have to manualy update the changes  
 on screen with update(). Will try to play with different tracer() options  
 
-#### create the ball and make it move
+#### Create the ball and make it move
 Ball will be created as separate class.  
 `width=20, height=20, X_position=0, Y_position=0`  
 
@@ -88,7 +88,7 @@ fine but the moving ball and manual screen update was to fast for me to see
 it on screen. In ball.py i had to drop the number of traveling distance from  
 20 to 5 and in main.py add time.sleep(0.1) after every screen update.  
 
-#### detect collision with wall and bounce
+#### Detect collision with wall and bounce
 Detect collision with top and bottom walls. How to make the ball bounce?  
 If we think how ball actually travels from A to B, how X and Y coordinates  
 change. What happens to coordinates when the ball bounce? Think how X and Y  
@@ -103,10 +103,10 @@ There is a few different solutions. How to flip the Y movement in opposite
 direction? I will define two attributes under initializer, x_distance and  
 y_distance. Than use the ball.bounce() to flip the y_distance.  
 
-#### detect collision with the paddle
+#### Detect collision with the paddle
 This is probably the hardest part of the program so instructor explains the  
 logic behind it. When measuring distance between two objects or object and a   
-single coordinate we can use the turtle.distance() built-in method. 
+single coordinate we can use the turtle.distance() built-in method.  
 The problem with this is the size of the paddle. ball.distance(paddle) would  
 return the distance between the center of the ball and paddle. If ball hits  
 the edge of the padle it would not register as a collision.  
@@ -115,7 +115,7 @@ Instructor proposes solution. If the ball is past the certain point on the
 x axis, if it is gone far enough to the right or left and its at least 50px  
 from the center of the paddle than we have a contact.
 
-#### detect when paddle misses
+#### Detect when paddle misses
 Add mechanic of miss. Check if the ball goes out of bounds at the edge of the  
 screen. If yes, reset the ball's position to the center of the screen. The ball  
 should then start moving towards the other player.  
