@@ -1,9 +1,7 @@
-### 100 days of code
-
+# 100 days of code
 #### instructor
->Angela Yu  
+Angela Yu  
 Developer and lead instructor at the London App Brewery.  
-
 
 #### about
 Every day instructor starts a project. From simple, beginner level project at  
@@ -15,8 +13,11 @@ what to do next.
 Solution to assignments is not obvious from start since i usually have to do  
 some more research on topic to get it right. This is definitely not standard  
 "hold my hand" tutorial you can find online. With every lesson instructor  
-rises the level of challange to push  
+rises the level of challange to push.  
 
+Most of intermediate level projects are not completed in a single day. I took  
+this very seriously and i never give up on finding the solution and i will not  
+continue with the course until i solve all previous challanges and assignments.   
 
 #### index
 ```
