@@ -120,9 +120,18 @@ Add mechanic of miss. Check if the ball goes out of bounds at the edge of the
 screen. If yes, reset the ball's position to the center of the screen. The ball  
 should then start moving towards the other player.  
 
-**WORK IN PROGRESS**
+#### Score keeping and ball speed
+Time to write the final module that will track the score for each player.  
+Scoreboard class will also inherit from the Turtle, initialize with basic  
+settings and add 2 attributes, left_score and right_score. Initializer will  
+call on update_score() method that will write the current values of the  
+those 2 attributes (left_score, right_score). I will also add two methods  
+that will increase the attributes every time paddle miss the ball.  
 
-
+Final challange is to increase game dynamic by increasing the speed of the ball  
+every time it hits the paddle. Solution is to add another attribute to Ball  
+class, self.speed_factor and pass it to time.sleep() in main loop. I can then  
+increase it by certain percentage and reset it after one side scores the point.  
 
 
 #tags: readme,
