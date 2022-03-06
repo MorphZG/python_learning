@@ -29,5 +29,5 @@ while machine_on:
                 coffee_maker.make_coffee(drink)  # parameter drink must be MenuItem object
 
 
-#note: interesting classes provided, readme.txt
-#tags: *class, objects
+#note: readme.md
+#tags: *class, oop,
