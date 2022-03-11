@@ -9,6 +9,8 @@ screen = Screen()
 screen.setup(width=600, height=600)
 screen.tracer(0)  # require manual screen.update(), read documentation
 player = Player()
+carmanager = CarManager()
+scoreboard = Scoreboard()
 
 # listen for screen events
 screen.listen()
@@ -16,30 +18,36 @@ screen.listen()
 screen.onkeypress(player.move, 'Up')
 
 game_on = True
-generated_cars = []
 counter = 0
 while game_on:
     counter += 1
     time.sleep(0.1)
     screen.update()
 
-    # generate the car when count == 6
+    # move generated cars
+    carmanager.move_cars()
+    # generate the car when count equals 6
     if counter == 6:
-        car_object = CarManager()
-        generated_cars.append(car_object)
-        print(len(generated_cars))
+        carmanager.spawn_car()
+        # reset the counter
         counter = 0
 
-    # move generated cars
-    for car in generated_cars:
-        car.move_cars()
+    # game over if car hits the player
+# <! --- is this looping through huge list efficient?
+    for car in carmanager.generated_cars:
+        if player.distance(car) < 25:
+            scoreboard.gameover()
+            screen.update()
+            game_on = False
 
     # turtle reach the finish line
-    if player.ycor() >= 280:
-        print("Game over!")
-        print(f'current position is {player.position()}')
-        game_on = False
+    # level up
+    if player.completed_level():
+        carmanager.increase_speed()
+        scoreboard.increase_score()
+        player.goto_start()
         screen.update()
+
 
 screen.exitonclick()
 
