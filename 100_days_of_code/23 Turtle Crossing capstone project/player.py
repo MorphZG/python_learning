@@ -18,3 +18,10 @@ class Player(Turtle):
         """ add MOVE_DISTANCE to current y coordinate """
         ycor = self.ycor() + MOVE_DISTANCE
         self.sety(ycor)
+
+    def completed_level(self):
+        """ return True if player reach the finish line """
+        return self.ycor() >= FINISH_LINE_Y
+
+    def goto_start(self):
+        self.goto(STARTING_POSITION)
