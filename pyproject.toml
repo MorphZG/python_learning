@@ -8,6 +8,7 @@ authors = ["Zoran Topic <zoran1607@gmail.com>"]
 python = "^3.8"
 "colorgram.py" = "^1.2.0"
 replit = "^3.2.4"
+pandas = "^1.4.1"
 
 [tool.poetry.dev-dependencies]
 
