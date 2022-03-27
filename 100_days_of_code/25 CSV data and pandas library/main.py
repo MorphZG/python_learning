@@ -1,52 +1,64 @@
 import pandas
-
-data = pandas.read_csv("weather_data.csv")
-#print(data)
-#
-## two main data structures in pandas
-## dataframe and series
-#print(type(data))
-#print(type(data["temp"]))
-#
-## convert temperature series to list
-#temp_list = data["temp"].to_list()
-#
-## calculate average temperature
-#average = sum(temp_list) / len(temp_list)
-#print(average)
-#
-## calculate average using pandas
-#average = data["temp"].mean()
-#print(average)
-#
-## calculate maximum temperature
-#maxtemp = data["temp"].max()
-#print(maxtemp)
-#
-# print the row where day is monday
-#monday = data[data.day == "Monday"]
-#print(monday)
-# print the row with maximum temperature
-#print(data[data.temp == data.temp.max()])
-#
-# convert monday temperature to fahrenheit
-monday = data[data.day == "Monday"]  # returns whole monday row
-print(monday.temp)  # print temp attribute for monday
-fahrenheit = monday.temp * (9/5) + 32  # conversion to fah.
-print(fahrenheit)
-#
-#
-# create a dataframe from scratch
-data_dict = {
-    "students": ["Amy", "James", "Fernando"],
-    "scores": [76, 56, 65]
-}
-
-data = pandas.DataFrame(data_dict)  # dataframe
-print(data)
-data.to_csv("new_data.csv")  # export to csv file
+import turtle
 
 
+# screen setup
+screen = turtle.Screen()
+screen.title("U.S. States Game")
+screen.bgpic("blank_states_img.gif")
+#turtle.addshape(image)
+#turtle.shape(image)
 
-#modules: pandas
-#tags: data, csv,
+# turtle setup
+turtle.hideturtle()
+turtle.penup()
+
+data = pandas.read_csv("50_states.csv")
+guessed_states = []
+missing_states = []
+
+while len(guessed_states) < 50:
+
+    answer = screen.textinput(title=f"{len(guessed_states)}/50 correct",
+                              prompt="What's another state's name").title()
+
+    # check if answer is in the list of states
+    if answer in data["state"].values and answer not in guessed_states:
+        # get the index of a row with user answer
+        inum = data.loc[data['state'] == answer].index[0]
+        # pull the X and Y columns and access values in indexed row
+        x = data['x'].iloc[inum]
+        y = data['y'].iloc[inum]
+        # store the XY values as a tuple
+        answer_coor = (x, y)
+        turtle.goto(answer_coor)
+        turtle.write(answer)
+
+        # get only state name
+        # append to list of guessed states
+        state_name = data[data['state'] == answer]['state'].item()
+        guessed_states.append(state_name)
+        print(guessed_states)
+
+    elif answer in guessed_states:
+        print('You already have that state!')
+        continue
+
+    # build list of missing states and export it to .csv
+    elif answer == 'Exit':
+        for state in data['state'].values:
+            if state not in guessed_states:
+                missing_states.append(state)
+        print(f'This is the list of states you should learn: {missing_states}')
+        print('Exporting the list to states_to_learn.csv file...')
+        # create new, single column dataframe and export to .csv
+        missing_states_dataframe = pandas.DataFrame(missing_states)
+        missing_states_dataframe.to_csv('states_to_learn.csv')
+        print(missing_states_dataframe)
+        break
+
+screen.mainloop()
+#screen.exitonclick()
+
+#modules: pandas, turtle,
+#tags: data, game, dataframe, series, value, item(), to_csv(), read_csv()
