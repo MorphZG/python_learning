@@ -49,13 +49,14 @@ check out this reference to help you out:
 https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions
 
 There are many examples and a better explanation than I can ever give.
+
 '''
 
 # List Comprehension can be used to avail the list of indices of all
 # the occurrences of a particular element in a List.
 
-#  syntax:
-# [expression for element in iterator if condition]
+#  syntax formula !!!!
+#   [expression for element in iterator if condition]
 lista = [10, 20, 30, 10, 50, 10, 45, 10]
 # get index numbers of elements equal to 10
 res = [x for x in range(len(lista)) if lista[x] == 10]
@@ -63,4 +64,4 @@ print(res)
 
 
 
-# tags: list comprehension,
+#tags: list comprehension,

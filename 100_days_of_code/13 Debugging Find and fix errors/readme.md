@@ -1,5 +1,5 @@
-### day_13
-
+**day_13**
+## Debugging, find and fix errors
 Instructor share a very simple list of code samples and i should use the given
 algorithm to debug the code in main.py  
 - Describe problem

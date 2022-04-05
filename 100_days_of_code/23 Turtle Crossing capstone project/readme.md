@@ -1,6 +1,6 @@
 **day 23**
-### Turtle Crossing
-#### Capstone project
+## Turtle Crossing
+### Capstone project
 
 We all remember the games where we had a chicken or some other creature trying  
 to cross the road with moving cars. Every decade had its own version of such  
@@ -36,7 +36,7 @@ basic constants defined. Car colors and moving distance for both player and
 cars.
 
 
-#### Check out how the gameplay works
+### Check out how the gameplay works
 -  A turtle moves forwards when you press the "Up" key. It can only move  
    forwards, not back, left or right.
 -  Cars are randomly generated along the y-axis and will move from the right  
@@ -47,7 +47,7 @@ cars.
 -  When the turtle collides with a car, it's game over and everything stops.  
  
 
-#### Break down the problem
+### Break down the problem
 Instructor have provided her thought process on this one but since i am trying  
 to complete this by myself with **expert** difficulty in mind i will not look  
 at the rest of her seven steps. This is how i will continue forward.
@@ -60,7 +60,7 @@ at the rest of her seven steps. This is how i will continue forward.
 - Make the scoreboard that will track the score
 
 
-#### Create the turtle and make it move
+### Create the turtle and make it move
 In player.py i am defining the Player class that inherits from Turtle. Set the  
 shape of turtle, heading toward North and starting position. Define move()  
 method that will move the turtle up by adding move_distance to its current Y  
@@ -68,7 +68,7 @@ coordinate. In main.py start listening for events and call player.move() when
 "Up" key is pressed.
 
 
-#### Detect when turtle hits the finish line
+### Detect when turtle hits the finish line
 Screen is 600x600 pixels. So Y axis goes from -300 to +300. Defined starting  
 position is at -280 because turtle is 20x20 pixels so finish line should  
 be at 280. Currently all want to do now is define what happens when turtle  
@@ -86,7 +86,7 @@ is equal to 280. And also a player.goto_start() that will bring the player
 back to starting position.
 
 
-#### Create the moving cars
+### Create the moving cars
 After defining the basic class settings in car_manager.py i had strange problem  
 with simple solution. Cars were created inside the main while loop and after  
 each iteration previously generated car was deleted from the screen, was not  
@@ -106,7 +106,7 @@ do it's thing and when the count hits a number, spawn the car and reset the
 counter.
 
 
-#### Level up and game over
+### Level up and game over
 After every sucessful cross cars will speed up and increase the difficulty.
 Instructor already defined variables for starting move distance and also move  
 increment of 10. I will define simple method that adds move increment to move  
@@ -120,14 +120,14 @@ player is hit by a car checked moment before?
 Don't forget to include screen.update().
 
 
-#### Build the scoarboard
+### Build the scoarboard
 This will be a simple class that inherits from Turtle. Need to find a good  
 position in  the upper left corner. Initialize the basics like hideturtle()  
 penup() and goto(). When defining increase_score() method, dont forget to  
 clear() previous score from the screen.
 
 
-#### Review and refactoring
+### Review and refactoring
 increase_speed() is not good. Increasing move_increment will only make the cars  
 jump over bigger distance. I should speed up the game by reducing the time.sleep()  
 in main loop. Is it possible to have a CarManager class to control that?

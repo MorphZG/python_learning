@@ -1,6 +1,5 @@
-### day_17
-
-**Building a quiz app.**  
+**day_17**
+## Building a quiz app  
 Split the app in 4 different files: main.py, data.py, question_model.py, quiz_brain.py
 
 I learned about class basics from another material, book "Python crash course"

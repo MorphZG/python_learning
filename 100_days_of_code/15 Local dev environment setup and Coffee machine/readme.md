@@ -1,6 +1,5 @@
-### day_15
-
-**Building a virtual coffee machine**  
+**day_15**
+## Building a virtual coffee machine  
 This could be much simpler with defined classes and OOP but instructor will talk about classes in next chapter so i will stick to the rules and try to
 finish the project using procedure and functions.
 

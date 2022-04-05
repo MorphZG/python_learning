@@ -1,11 +1,11 @@
 **day 20 and 21**
 
-### Building a Snake game!  
+## Building a Snake game!  
 This one makes me happy. Brings back the memories on my firs Nokia 3310.
 Snake project will be split in 2 parts and across 2 "days", or should i better
 say 2 folders.
 
-#### first part  
+### first part  
 In first part instructor presents the project and breakdown the goals on smaller
 parts.
 ```
@@ -33,7 +33,7 @@ creating a Snake() class to make the code simpler and modable. At the end, i
 will have 3 separate classes. Snake(), Food() and Scoreboard() with every
 class in its own separate file.
 
-#### second part  
+### second part  
 ```
 - detect collison with food
 - create a scoreboard,

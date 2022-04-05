@@ -1,5 +1,5 @@
 **day 24**
-### Files, directories and paths
+## Files, directories and paths
 
 In introduction video instructor mentions previous project, Snake game. We can  
 improve it by creating a file that will track the highest score. After learning  

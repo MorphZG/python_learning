@@ -1,5 +1,5 @@
-### day_16
-
+**day_16**
+## OOP and virtual coffee machine
 Building a virtual coffee machine with **OOP** principles.  
 I have downloaded these files:  
 * coffee_maker.py
