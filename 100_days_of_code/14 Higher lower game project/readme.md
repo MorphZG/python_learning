@@ -1,6 +1,5 @@
-### day_14
-
-**Higher/Lower game**.  
+**day_14**
+## Higher/Lower game  
 Check it out at: higherlowergame.com
 The goal is to keep playing as long as you can and hit the higher score.
 

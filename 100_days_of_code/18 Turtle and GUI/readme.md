@@ -1,5 +1,5 @@
-### day_18
-
+**day_18**
+## Turtle and GUI
 I already have experience with standard library and built in packages but i
 also work with poetry and pip to create virtual environments. Instructor
 uses PyCharm and installs the packages with a few mouse clicks.

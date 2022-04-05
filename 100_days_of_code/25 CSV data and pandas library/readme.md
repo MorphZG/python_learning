@@ -1,7 +1,7 @@
 **day 25**
-### Working with CSV files and Pandas library
+## Working with CSV files and Pandas library
 
-#### Intro
+### Intro
 Will be working with data files and analyzing the data with Pandas library.  
 Starting with basic introduction to csv module than comparing it with pandas.  
 Pandas is one of most popular libraries for data analysis so it is often first  
@@ -17,7 +17,7 @@ After few pandas exercises and reading more than i probably had to, searching
 through the whole documentation, it is finaly time to start the project.
 
 
-#### Can you name the US states?
+### Can you name the US states?
 I am building a quiz where you have to name as many states as you can. Map of  
 the US will be shown on the background and every time you guess the state it will  
 be revealed on map.
@@ -67,7 +67,7 @@ x = data[data['state'] == answer]['x']
 y = data[data['state'] == answer]['x']
 ```
 
-#### Saving data to .csv
+### Saving data to .csv
 Every guessed state is added to guessed_states list. There are 50 states to guess  
 so as long as the lenght of the list is less than 50 game will continue. If user  
 types "Exit" in to the prompt game will stop and all missing states will be added  
@@ -79,7 +79,7 @@ than eager to move on to the next project and learn more new things. Would be
 great if i later return to some of these projects and build upon them, expand  
 them to something bigger and better.  
 
-#### Aditional files
+### Aditional files
 I have created two additional files with short code snipets and description of  
 what each line does. Pandas is huge library and there are many different ways to  
 access information or present data to the user. Look at exercise.py and test.py 

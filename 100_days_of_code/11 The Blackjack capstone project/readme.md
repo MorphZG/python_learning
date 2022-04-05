@@ -1,6 +1,6 @@
-### day-11
+**day-11**
 
-### Blackjack Project
+## Blackjack Project
 
 Difficulty Normal: Use all Hints below to complete the project.  
 Difficulty Hard: Use only Hints 1, 2, 3 to complete the project.  
@@ -8,7 +8,7 @@ Difficulty Hard: Use only Hints 1, 2, 3 to complete the project.
 Difficulty Expert: Only use Hint 1 to complete the project.  
 
 
-#### Our Blackjack House Rules
+### Our Blackjack House Rules
 
 - The deck is unlimited in size. 
 - There are no jokers. 
@@ -50,7 +50,7 @@ keep drawing cards unless their score goes over 16.
 - After the game ends, ask the user if they'd like to play again. Clear the console for a fresh start.
 
 
-#### For "extra hard" challange don't read any more hints!
+### For "extra hard" challange don't read any more hints!
 
 
 ```Hints

@@ -1,5 +1,5 @@
-### day_19
-
+**day_19**
+## Instances and higher order functions
 More Turtle graphics, event listeners, state and multiple instances.
 Will make few mini games. Etch a Sketch kids game with turtle graphics and
 small mini race with turtles. Program will listen the keyboard inputs.

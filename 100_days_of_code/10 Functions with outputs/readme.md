@@ -1,6 +1,5 @@
-### day-10
-
-**Calculator**  
+**day_10**
+## Calculator  
 Original program from the day_10 have loop feature so you can calculate
 until user decide to quit. I wanted to keep the code clean with focus
 on functions inside dictionary. Dictionary actually doesnt store functions,
