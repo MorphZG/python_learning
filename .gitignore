@@ -1,5 +1,4 @@
-#   Sublime-text, workspace and project files
-#   both files depends on personal setup
+# Sublime-text, workspace and project files
 *.sublime-workspace
 *.sublime-project
 
@@ -9,5 +8,6 @@
 *.pyo
 
 # poetry environment files
-*.venv
+/.venv
 *.lock
+
