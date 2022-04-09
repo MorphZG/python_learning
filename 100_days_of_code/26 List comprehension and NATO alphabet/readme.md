@@ -119,7 +119,30 @@ Use Dictionary Comprehension instead of a Loop.
 
 
 ### How to iterate over Pandas dataframe
-to be continued ...
+After building a simple dictionary with list of names and list of scores i will  
+call `pandas.DataFrame()` to create small dataframe with two columns and few  
+rows. I can loop through it just like i would with dictionary.  
+```
+for key, value in dataframe.items():
+    print(key, value)
+```
+Pandas have inbuilt loop that allows looping through rows `dataframe.iterrows()`  
+```
+for index, row in dataframe.iterrows():
+    print(index, row)
+```
+Each row in Dataframe is Series object so we can access any single value in a  
+row by using `row.title` or `row["title"]`.   
+For more details look at exercise07 at `exercise.py`
+
+
+### Nato Alphabet
+Instructor shares the starting files `main.py` with few basic lines of code and  
+`nato_phonetic_alphabet.csv` with two columns, one with capital letters and  
+other with code word. My task is to first build a dictionary from .csv file  
+and than use keys to build a list of values depending on user input.
+
+It is a short assignment but it made me think. Day 26 completed!  
 
 
 #tags: readme,

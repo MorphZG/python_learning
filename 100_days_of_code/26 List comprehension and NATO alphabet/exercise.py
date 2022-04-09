@@ -1,5 +1,5 @@
 # Instructions for every exercise are listed inside readme.md file
-
+# requires pandas and random library
 
 # <! --- exercise 01
 print('\n==== exercise 01 ==== ')
@@ -72,10 +72,44 @@ weather_c = {
 }
 print(f'Temperatures in celsius degrees:\n{weather_c}')
 
-# convert celsius to fahrenheit with following formula
-# (temp_c * 9/5) + 32
+# conversion formula: (temp_c * 9/5) + 32
 weather_f = {day: (temp_c * 9/5) + 32 for (day, temp_c) in weather_c.items()}
 print(f'\nTemperatures in fahrenheit degrees:\n{weather_f}')
 # < --- end
 
-#tags: list, dictionary, *comprehension, i/o stream, file,
+# <! --- exercise 07
+print('\n==== exercise 07 ==== ')
+import pandas
+
+student_dict = {
+    'student': ['Angela', 'Ana', 'James'],
+    'score': [56, 99, 70]
+}
+
+student_dataframe = pandas.DataFrame(student_dict)
+
+# loop through rows of a data frame
+for index, row in student_dataframe.iterrows():
+    # access index and row
+    # access by attribute: row.student or row.score
+    # access by key: row['student'] or row['score']
+    pass
+
+print('\n==== here is the first loop ==== ')
+for index, row in student_dataframe.iterrows():
+    print(f'This is row {index}: ')
+    print(row)
+    print('-------------')
+
+print('\n==== here is the second loop ==== ')
+for index, row in student_dataframe.iterrows():
+    print(f'These are only the scores:')
+    print(row['score'])
+
+print('\n==== here is the third loop ==== ')
+for index, row in student_dataframe.iterrows():
+    print(f'These are only the students:')
+    print(row['student'])
+
+#modules: pandas, random
+#tags: list, dictionary, *comprehension, dataframe, iterrows()
