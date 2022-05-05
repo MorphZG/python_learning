@@ -86,4 +86,4 @@ listbox.pack()
 window.mainloop()
 
 #modules: tkinter
-#tags: label, button, entry, text, spinbox, scale, checkbutton, radiobutton, listbox
+#tags: label, button, entry, text, spinbox, scale, checkbutton, radiobutton, listbox, gui

@@ -46,4 +46,4 @@ window.mainloop()
 
 
 #modules: tkinter
-#tags: widget, pack(), grid(), converter
+#tags: widget, pack(), grid(), converter, gui
