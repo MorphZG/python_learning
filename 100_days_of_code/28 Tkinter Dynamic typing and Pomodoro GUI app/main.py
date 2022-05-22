@@ -100,4 +100,4 @@ reset_button.grid(column=2, row=2)
 window.mainloop()
 
 #modules: tkinter,
-#tags: pomodoro, gui, after(), after_cancel(), canvas
+#tags: pomodoro, gui, after(), after_cancel(), canvas, grid()
