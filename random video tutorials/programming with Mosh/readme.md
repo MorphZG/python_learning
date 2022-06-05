@@ -1,6 +1,6 @@
 # Programming with Mosh
 
-[Link to channel](www.youtube.com/c/programmingwithmosh)
+[Link to channel](https://www.youtube.com/c/programmingwithmosh)
 
 
 

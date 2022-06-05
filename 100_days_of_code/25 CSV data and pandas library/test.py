@@ -49,4 +49,5 @@ print(f"\n.item() returns clean value without object info")
 print(data[data['state'] == answer]['x'].item())
 print('--------------------')
 
-#tags: pandas, dataframe, series, value, row, column, scalar, item()
+#modules: pandas,
+#tags: dataframe, series, value, row, column, scalar, item()
