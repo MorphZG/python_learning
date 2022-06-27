@@ -180,6 +180,5 @@ if (today_month, today_day) in birthdays_dict:
 
 [pythonanywhere](https://www.pythonanywhere.com)
 
-<!--- continue at video 291 for solution and 292 for python in cloud
 
 #tags: readme,
