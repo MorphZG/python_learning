@@ -50,4 +50,4 @@ print(data[data['state'] == answer]['x'].item())
 print('--------------------')
 
 #modules: pandas,
-#tags: dataframe, series, value, row, column, scalar, item()
+#tags: dataframe, series, scalar, item(), read_csv()

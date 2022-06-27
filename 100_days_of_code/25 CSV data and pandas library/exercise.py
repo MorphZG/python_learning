@@ -36,6 +36,9 @@ print(monday)
 print(data[data.temp == data.temp.max()])
 print('--------------------')
 
+# select rows based on multiple column conditions
+data.loc[(data['day'] == 'Monday') & (data['temp'] < 40)]
+
 # print x/y value depending on another value in same row
 print('print value from another column but in same row')
 answer = input('input "day" value: ').title()
@@ -98,4 +101,4 @@ print(new_dataframe)
 # <! --- end
 
 #modules: pandas
-#tags: data, dataframe, series, index, row, column, value, item()
+#tags: data, dataframe, series, scalar, item(), loc, read_csv()

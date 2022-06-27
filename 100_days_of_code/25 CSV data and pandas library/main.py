@@ -61,4 +61,4 @@ screen.mainloop()
 #screen.exitonclick()
 
 #modules: pandas, turtle,
-#tags: data, game, dataframe, series, value, item(), to_csv(), read_csv()
+#tags: data, game, dataframe, series, item(), to_csv(), read_csv()
