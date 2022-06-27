@@ -15,7 +15,7 @@ for line in han:
     #guardian part:
     if len(wds) < 1: #!solution (line was empty so indexing was out of range)
         continue #!solution
-    
+
     if wds[0] != 'From': #0 Traceback line
         #print('Ignore') #2.Added Ignore after traceback
         continue

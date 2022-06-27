@@ -6,7 +6,7 @@
 
 fname = input('enter file name: ')
 # default file if input blank:
-if len(fname) < 1 : fname = 'dummy_short.txt' 
+if len(fname) < 1 : fname = 'dummy_short.txt'
 hand = open(fname)
 
 di = dict()
@@ -15,7 +15,7 @@ for lin in hand:
     wds = lin.split()
     for w in wds:
         # idiom: retrieve/create/update counter
-        di[w] = di.get(w,0) + 1           
+        di[w] = di.get(w,0) + 1
 #print(di)
 
 # now we want to find the most common word

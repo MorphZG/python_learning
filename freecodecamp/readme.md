@@ -9,4 +9,4 @@
 
 
 
-#tags: index, link, book resources, readme,
+#tags: index, readme
