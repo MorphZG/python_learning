@@ -1,9 +1,12 @@
 # 100 days of code
-#### instructor
+
+### Instructor
+
 Angela Yu  
 Developer and lead instructor at the London App Brewery.  
 
-#### about
+### About
+
 Every day instructor starts a project. From simple, beginner level project at  
 day one to more complex projects at day 100. After initial video lesson  
 instructor begins to challange the student with different assignments ranging  
@@ -17,10 +20,11 @@ rises the level of challange to push.
 
 Most of intermediate level projects are not completed in a single day. I took  
 this very seriously and i never give up on finding the solution and i will not  
-continue with the course until i solve all previous challanges and assignments.   
+continue with the course until i solve all previous challanges and assignments.
 
-#### index
-```
+### Index
+
+``` index
 Day 1 - Beginner - Working with Variables in Python to Manage Data
 Day 2 - Beginner - Understanding Data Types and How to Manipulate Strings
 Day 3 - Beginner - Control Flow and Logical Operators
@@ -60,10 +64,6 @@ Day 36 - Intermediate+ Stock Trading News Alert Project
 Day 37 - Intermediate+ Habit Tracking Project_ API Post Requests & Headers
 Day 38 - Intermediate+ Workout Tracking Using Google Sheets
 Day 39 - Intermediate+ Capstone Part 1_ Flight Deal Finder40 - Intermediate+ Capstone Part 2_ Flight Club
-
 ```
-
-
-
 
 #tags: index, resources, readme,

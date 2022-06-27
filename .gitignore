@@ -1,6 +1,7 @@
-# Sublime-text, workspace and project files
+# workspace and project files
 *.sublime-workspace
 *.sublime-project
+.vscode/
 
 # __pycache__ folder and files
 **/__pycache__
