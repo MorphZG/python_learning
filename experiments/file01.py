@@ -1,3 +1,4 @@
-def high_and_low(numbers):
-    # ...
-    return numbers
+tuple01 = (40, 120)
+tuple02 = (39, 1500)
+
+print(tuple01 > tuple02)
