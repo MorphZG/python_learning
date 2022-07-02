@@ -2,9 +2,10 @@ import smtplib
 import datetime as dt
 from random import choice
 
-SENDER = 'jimmijones442@gmail.com'  # dummy account
-SENDER_PASS = 'azsylpkamllwkpta'  # dummy account
-RECEIVER = 'jimmijones442@yahoo.com'  # dummy account
+SENDER = 'sender@email.com'  # dummy accounts
+SENDER_PASS = 'password1234'
+RECEIVER = 'receiver@email.com'
+
 
 def select_quote():
     """ select the random quote from the file """
@@ -24,9 +25,8 @@ def send_email(sender, receiver, password):
     connection.starttls()  # security feature that encrypts the connection
     connection.login(user=sender, password=password)
     connection.sendmail(
-    from_addr=sender, to_addrs=receiver,  
-    msg=f'Subject:Motivational message\n\n{message}'# \n\n separates mail title 
-    )
+        from_addr=sender, to_addrs=receiver,  
+        msg=f'Subject:Motivation\n\n{message}') # \n\n separates mail title 
     connection.close()
     print(f'=== You have just emailed this message ===\n{message}')
 

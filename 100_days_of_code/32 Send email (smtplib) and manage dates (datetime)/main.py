@@ -3,11 +3,11 @@ import datetime as dt
 import pandas as pd
 from random import choice
 
-SENDER = 'jimmijones442@gmail.com'  # dummy account
-SENDER_PASS = 'azsylpkamllwkpta'  # dummy account
+SENDER = 'sender@email.com'  # dummy accounts
+SENDER_PASS = 'password1234'
 
 
-def send_email(sender, receiver, password, mail_content):
+def send_email(sender, receiver, password, content):
     """ send the email, watch for imput parameters """ 
 
     print(f'\n=== Building the email for: {receiver} ===\n')
@@ -15,11 +15,10 @@ def send_email(sender, receiver, password, mail_content):
     connection.starttls()  # security feature that encrypts the connection
     connection.login(user=sender, password=password)
     connection.sendmail(
-    from_addr=sender, to_addrs=receiver,  
-    msg=f'Subject:Happy Birthday!\n\n{mail_content}'# \n\n separates mail title 
-    )
+        from_addr=sender, to_addrs=receiver,  
+        msg=f'Subject:Happy Birthday!\n\n{content}') # \n\n separates mail title
     connection.close()
-    print(f'=== You have just emailed this message ===\n{mail_content}')
+    print(f'=== You have just emailed this message ===\n{content}')
 
 
 # current date
