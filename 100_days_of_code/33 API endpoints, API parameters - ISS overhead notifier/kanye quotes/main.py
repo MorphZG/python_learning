@@ -13,6 +13,8 @@ window = Tk()
 window.title("Kanye Says...")
 window.config(padx=50, pady=50)
 
+# when placing text or image on canvas you must provide position
+# IndexError: tuple index out of range
 canvas = Canvas(width=300, height=414)
 background_img = PhotoImage(file="background.png")
 canvas.create_image(150, 207, image=background_img)

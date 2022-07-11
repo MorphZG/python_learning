@@ -75,6 +75,8 @@ window.title('Pomodoro')
 window.config(padx=100, pady=50, bg=YELLOW)
 
 # canvas widget, holds the image and text
+# when placing text on canvas you must provide position
+# IndexError: tuple index out of range
 tomato_img = PhotoImage(file='tomato.png')
 canvas = Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
 canvas.create_image(100, 112, image=tomato_img)

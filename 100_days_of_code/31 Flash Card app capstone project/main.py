@@ -56,6 +56,8 @@ window.config(padx=50, pady=50, bg=BACKGROUND_COLOR)
 flip_timer = window.after(3000, flip_card)  # flip card after 3s
 
 # canvas
+# when placing text or image on canvas you must provide position
+# IndexError: tuple index out of range
 card_front_img = PhotoImage(file='images/card_front.png')
 card_back_img = PhotoImage(file='images/card_back.png')
 canvas = Canvas(width=800, height=526, highlightthickness=0)
