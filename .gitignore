@@ -12,3 +12,5 @@
 /.venv
 *.lock
 
+# dummy email accounts
+dummy-accounts*
