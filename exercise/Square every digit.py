@@ -109,3 +109,6 @@ def square_digits(num):
     r = "".join(k)
     o = int(r)
     return o
+
+
+#tags:
