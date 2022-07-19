@@ -14,4 +14,4 @@ with open(text_file, 'w') as file_object:
     file_object.write(name)
 
 
-#tags: files, i/o stream, guest.txt
+#tags: files, i/o stream,

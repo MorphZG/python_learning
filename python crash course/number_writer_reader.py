@@ -25,4 +25,4 @@ with open(filename) as f:
 print(numbers)
 
 #modules: json
-#tags: files, i/o stream
+#tags: files, i/o stream, json,

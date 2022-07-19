@@ -45,4 +45,4 @@ while True:
         print(f"Hi {name}, you've been added to the guest book.")
 '''
 
-#tags: files, i/o stream, with, while loop, flag, guest_book.txt
+#tags: files, i/o stream, with, while loop, flag,

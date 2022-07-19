@@ -27,4 +27,4 @@ for file in list_of_files:
         print(names)
 
 
-#tags: files, exception, error, open(), read(), for loop, i/o stream, dogs.txt, cats.txt
+#tags: files, exception, error, open(), read(), for loop, i/o stream,

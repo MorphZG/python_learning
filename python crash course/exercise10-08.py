@@ -32,4 +32,4 @@ for file in list_of_files:
         print('Cannot find the specified file')
 
 
-#tags: files, exception, error, open(), read(), for loop, i/o stream, dogs.txt, cats.txt
+#tags: files, exception, error, open(), read(), for loop, i/o stream,
